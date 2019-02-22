@@ -1,0 +1,63 @@
+#portfolio-title{
+    color: teal;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #dddddd;
+}
+
+#portfolio-pictures{
+    /* display: flex; */
+    width: 100%;
+    height: 1000px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+img{
+    position: relative;
+    height: 200px;
+    width: 30%;
+    margin: 40px;
+    float: left;
+    clear: right;
+    border: 1px solid black;
+}
+
+.text-block-1, .text-block-2, .text-block-3, .text-block-4,
+.text-block-5{
+    position: absolute;
+    background-color: teal;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 25%;
+    opacity: 0.8;
+  }
+
+  .text-block-1{
+    bottom: -225px;
+    right: 630px;
+    
+  }
+
+  .text-block-2{
+    bottom: -225px;
+    right: 260px;
+  }
+
+  .text-block-3{
+    bottom: -500px;
+    right: 630px;
+  }
+
+  .text-block-4{
+    bottom: -500px;
+    right: 260px;
+  }
+
+  .text-block-5{
+    bottom: -775px;
+    right: 630px;
+  }

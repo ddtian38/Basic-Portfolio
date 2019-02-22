@@ -1,0 +1,23 @@
+.about-me{
+
+    background-color: white;
+
+}
+#about-title{
+    color: teal;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #dddddd;
+}
+
+#profile-pic{
+    float: left;
+    padding: 3px;
+}
+
+p{
+    color:#777777; 
+    font-size: 15px;
+    line-height: 30px;
+    padding: 5px;
+
+}
