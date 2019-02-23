@@ -1,6 +1,8 @@
 html, body{
     height: 100%;
+    margin: 0;
 }
+
 body{
     margin: 0 auto;
     background-image: url("../images/concrete-texture.png");
@@ -11,16 +13,17 @@ header{
     background-color: white;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     height: 100px;
+    width: 100%;
     border-bottom: 2px solid lightgray;
 }
 
 #title{
     color:white; 
-    background-color: #4aaaa5;
+    background-color: #b87324;
     float: left;
     width: 20%;
     margin-top: 0;
-    margin-left: 480px;
+    margin-left: 470px;
     padding-top: 10px;
     height: 90%;
     text-align: center;
@@ -31,22 +34,23 @@ header{
     width: 15%;
     float: right;
     margin-left: 50px;
-    margin-right: 480px;
+     margin-right: 480px;
     padding-top: 10px;
     padding-bottom: 0px;   
     padding-left: 0px;
     height: 50%;
-    background-color: white;
-    text-align: right;
+    background-color: #ffffff;
+    text-align: center;
     /* border: 4px black solid; */
     justify-content: center;
+}
 
+#nav-bar ul{
+    list-style-type: none; 
 }
 
 #nav-bar li{
-    float: left;
-    margin: 0 15px;
-    list-style-type: none; 
+    display: inline;
     color: #777777;  
 }
 
@@ -55,27 +59,43 @@ header{
     color: #777777;
 }
 
+#nav-bar a:hover{
+
+    color: red;
+
+}
+
+
+
 section{
     margin: 0 auto;
     width: 960px;
+    min-height: 100%;
     background: white;
+    border: 1px solid black;
     clear: both;
     padding: 10px;
 }
 
+.content-inside{
+
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     height: 50px;
     width: 100%;
     background-color: gray;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #b87324;
+    margin-top: -50px;
     padding-top: 10px;
     color: white;
     text-align: center;
   }
 
   #copyright{
+      font-size: 12px;
       padding-top:10px;
   }

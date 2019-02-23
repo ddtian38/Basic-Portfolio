@@ -1,5 +1,5 @@
 #contact-title{
-color: teal;
+color: #b87324;
 padding-bottom: 20px;
 border-bottom: 3px solid #dddddd;
 }
@@ -30,7 +30,7 @@ input[type="text"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 input[type=submit]{
     width: 10%;
     height: 35px;
-    background-color: teal;
+    background-color: #b87324;
     color: white;
     padding: 5px;
     border: none;

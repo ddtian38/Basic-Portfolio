@@ -1,10 +1,13 @@
+section:hover{
+
+    box-shadow: 10px 10px rgb(184, 183, 183);
+}
+
 .about-me{
-
     background-color: white;
-
 }
 #about-title{
-    color: teal;
+    color: #b87324;
     padding-bottom: 20px;
     border-bottom: 3px solid #dddddd;
 }
