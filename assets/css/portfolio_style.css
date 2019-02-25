@@ -30,27 +30,27 @@ img{
     width: 100%;
     float: left;
     clear: right;
-    border: 2px solid black; 
+    z-index: -1;
+    border: 5px solid gray; 
+    border-radius: 7px;
 }
 
 
-.text-block-1, .text-block-2, .text-block-3, .text-block-4,
-.text-block-5{
-    width: 90%;
+.text-block{
+    width: 95%;
     height: 10%;
     border: 2px black solid;
     position: absolute;
+    bottom:20px;
+    right: 5px;
     background-color: #b87324;
     color: white;
     opacity: 0.9;
-    z-index: 1;
     text-align: center;
-    bottom: 100px;
-    right: 20px;
   }
 
-  .hover:hover {
+  .text-block:hover {
     transform: scale(1.05);
-    box-shadow: 10px 10px rgb(184, 183, 183);
+    box-shadow: 0 10px 10px rgb(184, 183, 183);
   }
   
